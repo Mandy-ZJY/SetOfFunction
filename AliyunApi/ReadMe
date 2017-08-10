@@ -1,0 +1,7 @@
+调用阿里云域名api接口，请求url需要进行处理。
+
+签名机制原文档：
+https://help.aliyun.com/document_detail/42884.html?spm=5176.doc42881.2.5.nRuF3Y
+
+调用说明
+$url=new UrlGenerateProvider("domainName")->GetUrl();
